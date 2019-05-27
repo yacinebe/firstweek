@@ -1,0 +1,103 @@
+<!--emmet?-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Un tableau simple</h1>
+
+    <table id="first_table">
+      <tr>
+        <td>As</td>
+        <td>Trèfle</td>
+      </tr>
+
+      <tr>
+        <td>Pique</td>
+        <td>Coeur</td>
+      </tr>
+    </table>
+
+    <h1>Un exemple un peu plus complexe</h1>
+
+    <table id="second_table">
+      <tr>
+        <td colspan="2">&nbsp;</td>
+        <td colspan="2">Premier groupe</td>
+        <td colspan="2">Deuxième groupe</td>
+      </tr>
+
+      <tr>
+        <td colspan="1">&nbsp;</td>
+        <td colspan="1">Personne</td>
+        <td colspan="1">Singulier</td>
+        <td colspan="1">Pluriel</td>
+        <td colspan="1">Singulier</td>
+        <td colspan="1">Pluriel</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">&nbsp;</td>
+
+        <td colspan="1" rowspan="1">1</td>
+        <td colspan="1" rowspan="1">Je code</td>
+        <td colspan="1" rowspan="1">Nous codons</td>
+        <td colspan="1" rowspan="1">Je réussis</td>
+        <td colspan="1" rowspan="1">Nous réussisons</td>
+      </tr>
+
+      <tr>
+        <td colspan="1" rowspan="1">1</td>
+        <td colspan="1" rowspan="1">Je code</td>
+        <td colspan="1" rowspan="1">Nous codons</td>
+        <td colspan="1" rowspan="1">Je réussis</td>
+        <td colspan="1" rowspan="1">Nous réussisons</td>
+      </tr>
+
+      <tr>
+        <td colspan="1" rowspan="1">1</td>
+        <td colspan="1" rowspan="1">Je code</td>
+        <td colspan="1" rowspan="1">Nous codons</td>
+        <td colspan="1" rowspan="1">Je réussis</td>
+        <td colspan="1" rowspan="1">Nous réussisons</td>
+      </tr>
+    </table>
+
+    <h1>Liste ordonéee</h1>
+
+    <ol>
+      <li>Démarrer son navigateur</li>
+      <li>Ouvrir la console</li>
+      <li>Coder!</li>
+    </ol>
+
+    <h1>Liste imbriquée</h1>
+
+    <ol>
+      <li>élement de niveau 1.1</li>
+      <li>
+        élement de niveau 1.2
+        <ul>
+          <li>
+            premier sous élement du deuxième élement numeroté
+            <ol>
+              <li>ajoutons y une sous-liste</li>
+              <li>elle est numérotée</li>
+              <li>toujours ok?</li>
+            </ol>
+          </li>
+          <li>deuxième sous élement du deuxième élement numeroté</li>
+          <li>troisième sous élement du deuxième élement numeroté</li>
+        </ul>
+      </li>
+      <li>élement de niveau 1.3</li>
+    </ol>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+#first_table {
+
+  border-style: solid;
+  border-color: gray;
+}
+
+
+#first_table td
+
+{
+
+  border-style: solid;
+  padding: 10px;
+}
+
+#second_table td
+
+{
+
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  width: 1000px;
+}
+
+#third_table
+
+{
+
+  display: grid;
+}
